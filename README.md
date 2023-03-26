@@ -1,4 +1,4 @@
 # code-interview
 
-.NET 7
-C# 10
+- .NET 7
+- C# 10
