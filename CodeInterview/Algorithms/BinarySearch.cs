@@ -1,6 +1,9 @@
 namespace CodeInterview.Algorithms;
 
-public class BinarySearch
+public static class BinarySearch
 {
-    
+    public static void Run(int[] elements)
+    {
+        return;
+    }   
 }
