@@ -1,42 +1,29 @@
-namespace CodeInterview.Problems;
+namespace CodeInterview.Problems.Forest;
 
 public class CreateForest
 {
     /*
-        AncestryMap
-        <key, <id, father, [children collection]>>
-
-        1) (cat, lion)
-        2) (cat, panther)
-
-        <cat, <cat, null, [panther, lion]>
-        <panther, <panther, cat, []>>
-        <lion, <lion, cat, []>>
-
-        --
-
-        3) (mammal, cat)
-
-        <cat, <mammal, [panther, lion]>
-        <panther, <cat, []>>
-        <lion, <cat, []>>
-        <mammal, <null, [cat]>>
+     ** AncestryMap
+     ** <key, <id, father, [children collection]>>
+  
+     ** 1) (cat, lion)
+     ** 2) (cat, panther)
+ 
+     ** <cat, <cat, null, [panther, lion]>
+     ** <panther, <panther, cat, []>>
+     ** <lion, <lion, cat, []>>
+  
+     ** --
+  
+     ** 3) (mammal, cat)
+  
+     ** <cat, <mammal, [panther, lion]>
+     ** <panther, <cat, []>>
+     ** <lion, <cat, []>>
+     ** <mammal, <null, [cat]>>
     */
     
-    private class Forest
-    {
-        public HashSet<string> RootNodeIds { get; set; }
-        public Dictionary<string, Node> AncestryMap { get; set; }
-    }
-
-    private class Node
-    {
-        public string? Id { get; set; }
-        public string? Father { get; set; }
-        public HashSet<string> Children { get; set; }
-    }
-    
-    public void Setup()
+    public void Run()
     {
         {
             var pairs = new List<(string, string)>
@@ -51,13 +38,13 @@ public class CreateForest
                 ("Shark", "Cat") // This pair will force an exception
             };
 
-            var forest = BuildForest(pairs);
+            var forest = ConvertPairsToForest(pairs);
 
             PrintForest(forest);       
         }
     }
     
-    private Forest BuildForest(List<(string, string)> pairs)
+    private Forest ConvertPairsToForest(List<(string, string)> pairs)
     {
         {
             var ancestryMap = new Dictionary<string, Node>();

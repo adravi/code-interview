@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9154c76a-34f7-4ea5-a696-a0e29c88c7d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CodeInterview/Problems/CreateForest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeInterview/Algorithms/BinarySearch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CodeInterview/Algorithms/BinarySearch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeInterview/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CodeInterview/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeInterview/Problems/AdjacentSegments.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeInterview/Problems/Forest/Forest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeInterview/Problems/Forest/Node.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeInterview/Problems/SeatsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodeInterview/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CodeInterview/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeInterview/Problems/CreateForest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CodeInterview/Problems/Forest/BuildForest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Downloads/Problem2_Solution.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Problem3_Solution_Validations.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/rai_forest_improved.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -72,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679816219352</updated>
       <workItem from="1679816221082" duration="103000" />
-      <workItem from="1679816330264" duration="2048000" />
+      <workItem from="1679816330264" duration="3497000" />
     </task>
     <servers />
   </component>
