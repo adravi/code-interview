@@ -4,7 +4,7 @@ public class Matrix2D
 {
     public static void Run()
     {
-        int[,] matrix = new int[,] 
+        var matrix = new int[,] 
         {
             { 1, 2, 3 },
             { 4, 5, 6 },

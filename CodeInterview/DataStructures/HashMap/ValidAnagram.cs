@@ -1,6 +1,9 @@
+// https://leetcode.com/problems/valid-anagram/
+// Console.WriteLine(ValidAnagram.Run("anagram", "nagaram"));
+
 namespace CodeInterview.DataStructures;
 
-public class TwoNumSum
+public class ValidAnagram
 {
     public static bool Run(string first, string second)
     {
